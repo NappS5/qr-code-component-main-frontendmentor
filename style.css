@@ -16,11 +16,15 @@
 }
 
 body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     background-color: hsl(212, 45%, 89%);
 }
 
 #container {
-    margin-top: 100px;
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -28,7 +32,6 @@ body {
     flex-direction: column;
     width: 250px;
     border-radius: 20px;
-    margin-left: 550px;
 }
 
 .content {
@@ -66,13 +69,6 @@ p {
     bottom: 0;
 }
 @media (max-width: 480px) {
-    #container {
-        margin-left: 80px;
-        margin-top: 50px;
-    }
-    body {
-        height: 100%;
-    }
     .attribution {
         font-size: 14px;
     }
