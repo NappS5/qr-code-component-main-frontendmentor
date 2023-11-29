@@ -78,9 +78,3 @@ p {
     }
 }
 
-@media (max-width: 1920px) {
-    #container {
-        margin-left: 850px;
-        margin-top: 150px;
-    }
-}
